@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A652A919C67FE50013CBEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A652A819C67FE50013CBEA /* Foundation.framework */; };
+		18A652AB19C67FE50013CBEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A652AA19C67FE50013CBEA /* CoreGraphics.framework */; };
+		18A652AD19C67FE50013CBEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A652AC19C67FE50013CBEA /* UIKit.framework */; };
+		18A652B319C67FE50013CBEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18A652B119C67FE50013CBEA /* InfoPlist.strings */; };
+		18A652B519C67FE50013CBEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A652B419C67FE50013CBEA /* main.m */; };
+		18A652B919C67FE50013CBEA /* HMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A652B819C67FE50013CBEA /* HMAppDelegate.m */; };
+		18A652BC19C67FE50013CBEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A652BA19C67FE50013CBEA /* Main.storyboard */; };
+		18A652BF19C67FE50013CBEA /* HMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A652BE19C67FE50013CBEA /* HMViewController.m */; };
+		18A652C119C67FE50013CBEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A652C019C67FE50013CBEA /* Images.xcassets */; };
+		18A652C819C67FE50013CBEA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A652C719C67FE50013CBEA /* XCTest.framework */; };
+		18A652C919C67FE50013CBEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A652A819C67FE50013CBEA /* Foundation.framework */; };
+		18A652CA19C67FE50013CBEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A652AC19C67FE50013CBEA /* UIKit.framework */; };
+		18A652D219C67FE50013CBEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18A652D019C67FE50013CBEA /* InfoPlist.strings */; };
+		18A652D419C67FE50013CBEA /* _3_NSThread01_________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A652D319C67FE50013CBEA /* _3_NSThread01_________Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A652CB19C67FE50013CBEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A6529D19C67FE50013CBEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A652A419C67FE50013CBEA;
+			remoteInfo = "03-NSThread01-基本使用（了解）";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A652A519C67FE50013CBEA /* 03-NSThread01-基本使用（了解）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03-NSThread01-基本使用（了解）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A652A819C67FE50013CBEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18A652AA19C67FE50013CBEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18A652AC19C67FE50013CBEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18A652B019C67FE50013CBEA /* 03-NSThread01-基本使用（了解）-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "03-NSThread01-基本使用（了解）-Info.plist"; sourceTree = "<group>"; };
+		18A652B219C67FE50013CBEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18A652B419C67FE50013CBEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A652B619C67FE50013CBEA /* 03-NSThread01-基本使用（了解）-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "03-NSThread01-基本使用（了解）-Prefix.pch"; sourceTree = "<group>"; };
+		18A652B719C67FE50013CBEA /* HMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMAppDelegate.h; sourceTree = "<group>"; };
+		18A652B819C67FE50013CBEA /* HMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMAppDelegate.m; sourceTree = "<group>"; };
+		18A652BB19C67FE50013CBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A652BD19C67FE50013CBEA /* HMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMViewController.h; sourceTree = "<group>"; };
+		18A652BE19C67FE50013CBEA /* HMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMViewController.m; sourceTree = "<group>"; };
+		18A652C019C67FE50013CBEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18A652C619C67FE50013CBEA /* 03-NSThread01-基本使用（了解）Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03-NSThread01-基本使用（了解）Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A652C719C67FE50013CBEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18A652CF19C67FE50013CBEA /* 03-NSThread01-基本使用（了解）Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "03-NSThread01-基本使用（了解）Tests-Info.plist"; sourceTree = "<group>"; };
+		18A652D119C67FE50013CBEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18A652D319C67FE50013CBEA /* _3_NSThread01_________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3_NSThread01_________Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A652A219C67FE50013CBEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A652AB19C67FE50013CBEA /* CoreGraphics.framework in Frameworks */,
+				18A652AD19C67FE50013CBEA /* UIKit.framework in Frameworks */,
+				18A652A919C67FE50013CBEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A652C319C67FE50013CBEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A652C819C67FE50013CBEA /* XCTest.framework in Frameworks */,
+				18A652CA19C67FE50013CBEA /* UIKit.framework in Frameworks */,
+				18A652C919C67FE50013CBEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A6529C19C67FE50013CBEA = {
+			isa = PBXGroup;
+			children = (
+				18A652AE19C67FE50013CBEA /* 03-NSThread01-基本使用（了解） */,
+				18A652CD19C67FE50013CBEA /* 03-NSThread01-基本使用（了解）Tests */,
+				18A652A719C67FE50013CBEA /* Frameworks */,
+				18A652A619C67FE50013CBEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A652A619C67FE50013CBEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A652A519C67FE50013CBEA /* 03-NSThread01-基本使用（了解）.app */,
+				18A652C619C67FE50013CBEA /* 03-NSThread01-基本使用（了解）Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A652A719C67FE50013CBEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18A652A819C67FE50013CBEA /* Foundation.framework */,
+				18A652AA19C67FE50013CBEA /* CoreGraphics.framework */,
+				18A652AC19C67FE50013CBEA /* UIKit.framework */,
+				18A652C719C67FE50013CBEA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18A652AE19C67FE50013CBEA /* 03-NSThread01-基本使用（了解） */ = {
+			isa = PBXGroup;
+			children = (
+				18A652B719C67FE50013CBEA /* HMAppDelegate.h */,
+				18A652B819C67FE50013CBEA /* HMAppDelegate.m */,
+				18A652BA19C67FE50013CBEA /* Main.storyboard */,
+				18A652BD19C67FE50013CBEA /* HMViewController.h */,
+				18A652BE19C67FE50013CBEA /* HMViewController.m */,
+				18A652C019C67FE50013CBEA /* Images.xcassets */,
+				18A652AF19C67FE50013CBEA /* Supporting Files */,
+			);
+			path = "03-NSThread01-基本使用（了解）";
+			sourceTree = "<group>";
+		};
+		18A652AF19C67FE50013CBEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A652B019C67FE50013CBEA /* 03-NSThread01-基本使用（了解）-Info.plist */,
+				18A652B119C67FE50013CBEA /* InfoPlist.strings */,
+				18A652B419C67FE50013CBEA /* main.m */,
+				18A652B619C67FE50013CBEA /* 03-NSThread01-基本使用（了解）-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A652CD19C67FE50013CBEA /* 03-NSThread01-基本使用（了解）Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18A652D319C67FE50013CBEA /* _3_NSThread01_________Tests.m */,
+				18A652CE19C67FE50013CBEA /* Supporting Files */,
+			);
+			path = "03-NSThread01-基本使用（了解）Tests";
+			sourceTree = "<group>";
+		};
+		18A652CE19C67FE50013CBEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A652CF19C67FE50013CBEA /* 03-NSThread01-基本使用（了解）Tests-Info.plist */,
+				18A652D019C67FE50013CBEA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A652A419C67FE50013CBEA /* 03-NSThread01-基本使用（了解） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A652D719C67FE50013CBEA /* Build configuration list for PBXNativeTarget "03-NSThread01-基本使用（了解）" */;
+			buildPhases = (
+				18A652A119C67FE50013CBEA /* Sources */,
+				18A652A219C67FE50013CBEA /* Frameworks */,
+				18A652A319C67FE50013CBEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-NSThread01-基本使用（了解）";
+			productName = "03-NSThread01-基本使用（了解）";
+			productReference = 18A652A519C67FE50013CBEA /* 03-NSThread01-基本使用（了解）.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A652C519C67FE50013CBEA /* 03-NSThread01-基本使用（了解）Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A652DA19C67FE50013CBEA /* Build configuration list for PBXNativeTarget "03-NSThread01-基本使用（了解）Tests" */;
+			buildPhases = (
+				18A652C219C67FE50013CBEA /* Sources */,
+				18A652C319C67FE50013CBEA /* Frameworks */,
+				18A652C419C67FE50013CBEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A652CC19C67FE50013CBEA /* PBXTargetDependency */,
+			);
+			name = "03-NSThread01-基本使用（了解）Tests";
+			productName = "03-NSThread01-基本使用（了解）Tests";
+			productReference = 18A652C619C67FE50013CBEA /* 03-NSThread01-基本使用（了解）Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A6529D19C67FE50013CBEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = heima;
+				TargetAttributes = {
+					18A652C519C67FE50013CBEA = {
+						TestTargetID = 18A652A419C67FE50013CBEA;
+					};
+				};
+			};
+			buildConfigurationList = 18A652A019C67FE50013CBEA /* Build configuration list for PBXProject "03-NSThread01-基本使用（了解）" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A6529C19C67FE50013CBEA;
+			productRefGroup = 18A652A619C67FE50013CBEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A652A419C67FE50013CBEA /* 03-NSThread01-基本使用（了解） */,
+				18A652C519C67FE50013CBEA /* 03-NSThread01-基本使用（了解）Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A652A319C67FE50013CBEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A652C119C67FE50013CBEA /* Images.xcassets in Resources */,
+				18A652B319C67FE50013CBEA /* InfoPlist.strings in Resources */,
+				18A652BC19C67FE50013CBEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A652C419C67FE50013CBEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A652D219C67FE50013CBEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A652A119C67FE50013CBEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A652BF19C67FE50013CBEA /* HMViewController.m in Sources */,
+				18A652B519C67FE50013CBEA /* main.m in Sources */,
+				18A652B919C67FE50013CBEA /* HMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A652C219C67FE50013CBEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A652D419C67FE50013CBEA /* _3_NSThread01_________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A652CC19C67FE50013CBEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A652A419C67FE50013CBEA /* 03-NSThread01-基本使用（了解） */;
+			targetProxy = 18A652CB19C67FE50013CBEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A652B119C67FE50013CBEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A652B219C67FE50013CBEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18A652BA19C67FE50013CBEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A652BB19C67FE50013CBEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A652D019C67FE50013CBEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A652D119C67FE50013CBEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A652D519C67FE50013CBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18A652D619C67FE50013CBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A652D819C67FE50013CBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "03-NSThread01-基本使用（了解）/03-NSThread01-基本使用（了解）-Prefix.pch";
+				INFOPLIST_FILE = "03-NSThread01-基本使用（了解）/03-NSThread01-基本使用（了解）-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18A652D919C67FE50013CBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "03-NSThread01-基本使用（了解）/03-NSThread01-基本使用（了解）-Prefix.pch";
+				INFOPLIST_FILE = "03-NSThread01-基本使用（了解）/03-NSThread01-基本使用（了解）-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18A652DB19C67FE50013CBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/03-NSThread01-基本使用（了解）.app/03-NSThread01-基本使用（了解）";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "03-NSThread01-基本使用（了解）/03-NSThread01-基本使用（了解）-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "03-NSThread01-基本使用（了解）Tests/03-NSThread01-基本使用（了解）Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18A652DC19C67FE50013CBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/03-NSThread01-基本使用（了解）.app/03-NSThread01-基本使用（了解）";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "03-NSThread01-基本使用（了解）/03-NSThread01-基本使用（了解）-Prefix.pch";
+				INFOPLIST_FILE = "03-NSThread01-基本使用（了解）Tests/03-NSThread01-基本使用（了解）Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A652A019C67FE50013CBEA /* Build configuration list for PBXProject "03-NSThread01-基本使用（了解）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A652D519C67FE50013CBEA /* Debug */,
+				18A652D619C67FE50013CBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A652D719C67FE50013CBEA /* Build configuration list for PBXNativeTarget "03-NSThread01-基本使用（了解）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A652D819C67FE50013CBEA /* Debug */,
+				18A652D919C67FE50013CBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A652DA19C67FE50013CBEA /* Build configuration list for PBXNativeTarget "03-NSThread01-基本使用（了解）Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A652DB19C67FE50013CBEA /* Debug */,
+				18A652DC19C67FE50013CBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A6529D19C67FE50013CBEA /* Project object */;
+}
